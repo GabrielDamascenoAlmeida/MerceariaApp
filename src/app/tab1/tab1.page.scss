@@ -1,0 +1,39 @@
+ion-content {
+  --background: #fff;
+}
+.imagem {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo {
+  font-size: 40px;
+  color: #27282b;
+  font-weight: bold;
+}
+.texto2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.texto-simples {
+  font-size: 16px;
+  color: #27282b;
+}
+.botao-controlador {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+.botao {
+  --background: #7785db;
+  --color: #fff;
+  width: 250px;
+  height: 70px;
+}

@@ -1,0 +1,80 @@
+ion-content {
+  --background: #fff;
+}
+.toolbar {
+  --background: #fff;
+}
+.topo {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -70px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  --background: #fff;
+  max-height: 50px;
+}
+.icone {
+  color: black;
+  width: 35px;
+  height: 40px;
+}
+.texto {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-right: -70px;
+  width: 40px;
+  height: 39px;
+}
+.textos-cabecalho {
+  color: #000;
+  margin-left: 20px;
+}
+.pequeno-texto {
+  font-size: 12px;
+}
+.grande-texto {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.categorias {
+  margin-top: 50px;
+}
+.medio-texto {
+  color: #000;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.frutas-botao {
+  --background: #c5d7b1;
+  --border-radius: 20px;
+  height: 165px;
+  width: 140px;
+}
+.frutas-texto {
+}
+.diversos-botao {
+  --background: #92b6fa;
+  --border-radius: 20px;
+  height: 165px;
+  width: 140px;
+}
+.diversos-texto {
+}
+.acougue-botao {
+  --background: #f0bdb2;
+  --border-radius: 20px;
+  height: 165px;
+  width: 140px;
+}
+.acougue-texto {
+  --background: #cfaea9;
+}
