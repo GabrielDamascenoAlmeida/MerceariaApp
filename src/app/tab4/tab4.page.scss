@@ -1,0 +1,52 @@
+ion-content {
+  --background: #fff;
+}
+.topo {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.botao-retornar {
+  --background: #f8f9fa;
+  --border-radius: 200px;
+  width: 70px;
+  height: 70px;
+}
+.texto {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.h1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 35px;
+}
+p {
+  color: #000;
+}
+.lista-frutas {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-frutas {
+  --background: #c5d7b1;
+  --border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  margin-left: -5px;
+}
+.div-textos {
+  margin-left: -30px;
+}
+.txt-comum {
+  margin-bottom: -10px;
+}
+.txt-forte {
+  font-weight: bold;
+}
+.txt-fraco {
+  color: #bfc4c8;
+  font-size: 13px;
+  margin-bottom: -14px;
+}
