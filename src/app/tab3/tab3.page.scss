@@ -78,3 +78,74 @@ ion-content {
 .acougue-texto {
   --background: #cfaea9;
 }
+
+.h1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 35px;
+}
+p {
+  color: #000;
+}
+.lista-frutas {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-frutas {
+  --background: #c5d7b1;
+  --border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin-left: -5px;
+}
+.div-textos {
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.div-textos2 {
+  margin-top: 10px;
+}
+.txt-comum {
+}
+.txt-forte {
+  font-weight: bold;
+}
+.txt-fraco {
+  color: #bfc4c8;
+  font-size: 13px;
+  margin-top: -14px;
+}
+.botao-editar {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.lista-diversos {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-diversos {
+  --background: #92b6fa;
+  --border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin-left: -5px;
+}
+.lista-acougue {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-acougue {
+  --background: #f0bdb2;
+  --border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin-left: -5px;
+}
+.lista {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ao-lado {
+  display: flex;
+  align-items: center;
+}

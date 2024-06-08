@@ -32,12 +32,13 @@ p {
 .botao-frutas {
   --background: #c5d7b1;
   --border-radius: 100px;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin-left: -5px;
 }
 .div-textos {
-  margin-left: -30px;
+  margin-left: -48px;
+  margin-top: 10px;
 }
 .txt-comum {
   margin-bottom: -10px;
@@ -49,4 +50,50 @@ p {
   color: #bfc4c8;
   font-size: 13px;
   margin-bottom: -14px;
+}
+.botao-editar {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.lista-diversos {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-diversos {
+  --background: #92b6fa;
+  --border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin-left: -5px;
+}
+.lista-acougue {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-acougue {
+  --background: #f0bdb2;
+  --border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  margin-left: -5px;
+}
+.lista {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card {
+  margin-top: 100px;
+  --background: #7785db;
+  --color: #fff;
+  height: 100px;
+  align-content: center;
+}
+.conteudo-card {
+  display: flex;
+  justify-content: space-around;
+}
+.botao-pagar {
+  color: #fff;
+  --border-color: #fff;
+  --border-radius: 30px;
 }
